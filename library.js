@@ -5,10 +5,9 @@
 
   Landing.init = function(params, callback) {
     var app = params.router;
-    app.use(express.static(__dirname));
     
-    app.get('/',function(req, res){
-      res.sendFile('index.html');    
+    app.get('/promo',function(req, res) {
+      res.sendFile('index.html');
     });
   }
 
