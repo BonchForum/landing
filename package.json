@@ -1,0 +1,22 @@
+{
+  "name": "nodebb-plugin-landing",
+  "version": "1.0.0",
+  "description": "Post anonimly posts from users",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "landing",
+    "nodebb"
+  ],
+  "author": "Loutchansky Oleg",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "nbbpm": {
+    "compatibility": "^0.9.0"
+  }
+}
