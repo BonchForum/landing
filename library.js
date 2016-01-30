@@ -13,6 +13,8 @@
 
     app.use('/promo', express.static(__dirname + '/public'));
     // app.use('/promo', express.static(__dirname + '/images'));
+    
+    callback();
   }
 
   module.exports = Landing;
